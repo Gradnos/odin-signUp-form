@@ -1,0 +1,48 @@
+:root{
+    --main :#e34c26;
+}
+
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: stretch;
+}
+
+.left,
+.right{
+}
+
+.left img{
+    display: block;
+    max-height: 100%;
+}
+
+.logo{
+    width: 4rem;
+}
+
+@font-face {
+    font-family: 'zillah_modernregular';
+    src: url('fonts/webfontkit-20230224-014342/zillm___-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230224-014342/zillm___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'zillah_modern_thinregular';
+    src: url('fonts/webfontkit-20230224-014342/zillmt__-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20230224-014342/zillmt__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
