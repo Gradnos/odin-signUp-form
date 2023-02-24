@@ -1,9 +1,11 @@
 :root{
     --main :#e34c26;
+    --green : rgb(109, 250, 128);
 }
 
 
 *{
+    font-family: 'Tilt Warp', cursive;
     margin:0px;
     padding: 0px;
 }
@@ -17,17 +19,62 @@ body{
     align-items: stretch;
 }
 
-.left,
-.right{
+a{
+    text-decoration: none;
+    color: var(--main);
 }
 
-.left img{
-    display: block;
-    max-height: 100%;
+a:hover{
+    color: var(--green);
+}
+
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+
+    flex:2;
+    background-size: auto 150%;
+    background-position: center;
+    background-image: url(img/prison.jpg);
+}
+.right{
+    flex:3;
+}
+
+.h1cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: auto;
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.gitLink{
+    font-family: 'zillah_modernregular';
+    color: white;
+    font-size: 1.5em;
+}
+
+.gitLink:hover{
+    color: var(--main);
+}
+
+.author{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    margin-top: auto;
+    text-align: center;
 }
 
 .logo{
-    width: 4rem;
+    width: 1.1em;
 }
 
 @font-face {
