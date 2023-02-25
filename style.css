@@ -126,6 +126,33 @@ fieldset{
 
 }
 
+input{
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-left-width: 2px;
+    border-radius: 5px;
+    transform: border;
+    transition-duration: 0.5s;
+}
+
+
+input:invalid{
+    border-color: var(--main);
+    border-radius: 0px;
+    border-left-width: 10px;
+}
+
+input:valid{
+    border-color: var(--green);
+    border-radius: 5px;
+
+}
+
+input:focus{
+    outline: none;
+    border-color: rgb(75, 75, 219);
+}
+
+
 .h1cont{
     display: flex;
     justify-content: center;
