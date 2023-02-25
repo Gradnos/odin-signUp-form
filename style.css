@@ -132,6 +132,8 @@ input{
     border-radius: 5px;
     transform: border;
     transition-duration: 0.5s;
+    font-size: 0.8rem;
+    padding: 5px;
 }
 
 
