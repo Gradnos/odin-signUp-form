@@ -23,33 +23,39 @@
     <div class="right">
             <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi! Sign up now to get started.</p>
             <p>You know you want to.</p>
-            <form action=".." method="post" id="myForm">
+            <form action="/index.html" method="post" id="myForm">
                 <h2>Let's do this!</h2>
                 
                 <fieldset>
                     <div class="input-wrapper">
                         <label for="first_name">FIRST NAME</label>
                         <input type="text" id="first_name" placeholder="John" minlength="3" pattern="[a-z]*[A-Z]*" required>
+                        <small>minimum lenght is 2 characters</small>
                     </div>
                     <div class="input-wrapper">
                         <label for="last_name">LAST NAME</label>
                         <input type="text" id="last_name" placeholder="Doe"  minlength="3" pattern="[a-z]*[A-Z]*" required>
+                        <small></small>
                     </div>
                     <div class="input-wrapper">
                         <label for="mail">EMAIL</label>
                         <input type="email" id="mail" placeholder="johndoe@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                        <small></small>
                     </div>
                     <div class="input-wrapper">
                         <label for="phone_number">PHONE NUMBER</label>
                         <input type="tel" id="phone_number" minlength="9" maxlength="9" pattern="[0-9]*" placeholder="123456789" required>
+                        <small></small>
                     </div>
                     <div class="input-wrapper">
                         <label for="password1">PASSWORD</label>
                         <input type="password" id="password1" required>
+                        <small></small>
                     </div>
                     <div class="input-wrapper">
-                        <label for="password2">PASSWORD</label>
+                        <label for="password2">REPEAT PASSWORD</label>
                         <input type="password" id="password2" required>
+                        <small></small>
                     </div>
                 </fieldset>
             </form>
