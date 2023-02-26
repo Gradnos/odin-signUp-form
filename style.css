@@ -120,7 +120,7 @@ fieldset{
 
 .input-wrapper{
     flex : 1;
-    min-width: max(40%, 200px);
+    min-width: max(40%, 180px);
     display: flex;
     flex-direction: column;
     position: relative;
@@ -240,7 +240,7 @@ div small.enabled{
 
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 912px){
 
     *{
         text-align: center;
@@ -248,7 +248,7 @@ div small.enabled{
     }
 
     .logo{
-        width: 1.5em;
+        width: 1em;
     }
 
     body{
@@ -263,7 +263,7 @@ div small.enabled{
 
 
     .input-wrapper{
-        min-width: max(40%, 300px);
+        min-width: max(40%, 200px);
     }
 
     .right{
@@ -275,7 +275,18 @@ div small.enabled{
     }
 
     .h1cont{
+        font-size: 3rem;
         opacity: 0.8;
         background:none
+    }
+
+    .already{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .already p{
+        margin: auto;
     }
 }
